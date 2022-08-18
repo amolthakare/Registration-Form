@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./registration_img.png">
+    <script src="https://kit.fontawesome.com/c8503353a1.js" crossorigin="anonymous"></script>
+
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="./index.css"></link>
+    
+</head>
+<body>
+    <div id="page">
+    <div id="main">
+        <h1 id="htag"><i class="fa-solid fa-id-card"></i>     Registration From</h1>
+
+        <form id="form">
+        
+            <!-- student name -->
+            <div class="subdiv">
+                <p class="ptag">Student Name :</p>
+                <div class="sub">
+                    <select class="input" id="title">
+                        <option >Mr.</option>
+                        <option >Mrs.</option>
+                        <option >Miss.</option>
+                    </select>
+                    <input type="text" placeholder="Enter Your Name" class="input" id="name"/>
+                
+                </div>
+            </div>
+
+            <!-- Fathers Name -->
+            <div class="subdiv">
+                <p class="ptag">Father's Name :</p>
+                <input type="text" placeholder="Enter Your Father's Name" class="input" id="father"/>
+            </div>
+
+            <!-- Mothers Name -->
+            <div class="subdiv">
+                <p class="ptag">Mother's Name :</p>
+                <input type="text" placeholder="Enter Your Mother's Name" class="input" id="mother"/>
+            </div>
+
+            <!-- DOB -->
+            <div class="subdiv">
+                <p class="ptag">Date of Birth :</p>
+                <input type="date" class="input" id="dob"/>
+            </div>
+
+            <!-- Gender -->
+
+            <div class="subdiv">
+                <p class="ptag">Gender :</p>
+                <div class="subdiv">
+                    <p>Male</p>
+                    <input type="checkbox" style="width: 15px;"/>
+                    <p>Female</p>
+                    <input type="checkbox" style="width: 15px;"/>
+                </div>
+            </div>
+
+            <!-- Email ID -->
+            <div class="subdiv">
+                <p class="ptag">Email ID :</p>
+                <input type="text" placeholder="Enter Your Email ID" class="input" id="email"/>
+            </div>
+
+            <!-- Mobile -->
+            <div class="subdiv">
+                <p class="ptag">Mobile No. :</p>
+                <input type="number" placeholder="Enter Your Mobile" class="input" id="mobile"/>
+            </div>
+
+            <!-- Address -->
+            <div class="subdiv">
+                <p class="ptag">Address :</p>
+                <textarea class="address" id="address"></textarea>
+            </div>
+
+            <!-- state -->
+            <div class="subdiv">
+                <p class="ptag">State :</p>
+                <input type="text" class="input" placeholder="Enter your State" id="state"/>
+            </div>
+
+            <!-- City -->
+            <div class="subdiv">
+                <p class="ptag">City :</p>
+                <input type="text" class="input" placeholder="Enter Your City" id="city"/>
+            </div>
+
+            <!-- button -->
+            <div class="subdiv">
+                <p class="ptag"> </p>
+                <input type="submit" class="button"/>
+            </div>
+
+        </form>
+
+            
+    </div>
+</div>
+<div id="reg">
+    <p class="ptag2">Click to see the registered students</p>
+    <div id="btndiv">
+        <button class="button2"><a href="./display.html">Registered Students</a></button>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script src="./index.js"></script>

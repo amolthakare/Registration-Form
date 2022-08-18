@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(210,208,221);
+}
+h1{
+    text-align: center;
+    font-family : cursive;
+    color: rgb(91, 36, 229);
+}
+.displayRegistrations{
+    width: 90%;
+    margin: auto;
+}
+.heading{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    font-weight: 600;
+    background-color: rgb(189, 180, 211);
+    gap: 5px;
+    font-family: cursive;
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 10px 12px 14px, rgba(0, 0, 0, 0.3) 10px 17px 23px -3px, rgba(0, 0, 0, 0.2) 10px -23px 10px inset; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#data{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgb(189, 180, 211);
+    gap: 5px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: -10px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 10px 12px 14px, rgba(0, 0, 0, 0.3) 10px 17px 23px -3px, rgba(0, 0, 0, 0.2) 10px -23px 10px inset; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#name{
+    width: 13%;
+    text-align: center;
+}
+#father{
+    width: 7%;
+    /* text-align: center; */
+}
+#mother{
+    width: 7%;
+    /* text-align: center; */
+}
+#dob{
+    width: 7%;
+    /* text-align: center; */
+}
+#email{
+    width: 15%;
+    text-align: center;
+}
+#mobile{
+    width: 10%;
+    /* text-align: center; */
+}
+#address{
+    width: 18%;
+    text-align: center;
+}
+#state{
+    width: 7%;
+    /* text-align: center; */
+}
+#city{
+    width: 7%;
+    /* text-align: center; */
+}
+.name{
+    width: 13%;
+}
+.father{
+    width: 7%;
+}
+.mother{
+    width: 7%;
+}
+.dob{
+    width: 7%;
+}
+.email{
+    width: 15%;
+}
+.mobile{
+    width: 10%;
+}
+.address{
+    width: 18%;
+}
+.state{
+    width: 7%;
+}
+.city{
+    width: 7%;
+}
+#btn{
+    width: 80px;
+    height: 40px;
+    margin: auto;
+    font-weight: 600;
+    border-radius: 50%;
+    font-family: URW Chancery L, cursive;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(100,63,192);
+    border: none;
+    box-shadow: 3px 7px red;
+    /* box-shadow: 7px rgb(211, 211, 213); */
+}
+#btn:hover{
+    color: white;
+    background-color: red;
+    box-shadow: 3px 7px rgb(100,63,192);
+}
+
+.button2 {
+    font-weight: 600;
+    font-family: URW Chancery L, cursive;
+    padding: 10px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(100,63,192);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 3px 7px red;
+
+}
+      
+.button2:hover {
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    box-shadow: 3px 7px rgb(100,63,192);
+}
+#btndiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

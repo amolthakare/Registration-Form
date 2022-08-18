@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(210,208,221);
+}
+#page{
+    display: flex;
+}
+#main{
+    width: 40%;
+    background-color: rgb(189, 180, 211);
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 12px 14px, rgba(0, 0, 0, 0.3) 10px 17px 23px -3px, rgba(0, 0, 0, 0.2) 10px -23px 10px inset;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+}
+/* #reg{
+    width: 30%;
+    position: relative;
+    background-color: rgb(189, 180, 211);
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 12px 14px, rgba(0, 0, 0, 0.3) 10px 17px 23px -3px, rgba(0, 0, 0, 0.2) 10px -23px 10px inset;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+} */
+#htag{
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.subdiv{
+    display: flex;
+    margin-bottom: 10px;
+}
+.ptag{
+    width: 40%;
+    font-weight: 600;
+}
+.input{
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 10px 25px;
+    border-radius: 7px;
+    height: 30px;
+}
+.address{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 5px;
+    height: 60px;
+}
+
+/* button */
+.button {
+    font-weight: 600;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(100,63,192);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    box-shadow: 4px 8px red;
+  }
+  
+.button:hover {
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    box-shadow: 4px 8px rgb(100,63,192);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.button2 {
+    font-weight: 600;
+    font-family: URW Chancery L, cursive;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(100,63,192);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    box-shadow: 5px 10px red;
+}
+      
+.button2:hover {
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    box-shadow: 5px 10px rgb(100,63,192);
+}
+
+.ptag2{
+     /* width: 40%; */
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+    font-family: URW Chancery L, cursive;
+}
+
+#btndiv{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
